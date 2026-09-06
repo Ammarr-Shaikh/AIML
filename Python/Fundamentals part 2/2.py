@@ -1,9 +1,4 @@
 while True:
-
-    user = input("Do you wanna continue")
-    if user =="quit":
-        break
-    else:
         n = int(input("Enter a number: "))
         if n > 0:
             print("it is positive")
@@ -11,3 +6,6 @@ while True:
             print("it is negative")
         else:
             print("number is zero")
+        user = input("Continue or Quit: ")
+        if user == "quit":
+             break
